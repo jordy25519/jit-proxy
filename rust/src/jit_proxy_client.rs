@@ -7,8 +7,8 @@ use drift_sdk::{
     constants::{state_account, PROGRAM_ID},
     AccountProvider, DriftClient, Pubkey,
 };
-use jit_proxy::state::PostOnlyParam;
-use jit_proxy::state::PriceType;
+pub use jit_proxy::state::PostOnlyParam;
+pub use jit_proxy::state::PriceType;
 use solana_sdk::compute_budget::ComputeBudgetInstruction;
 use solana_sdk::instruction::{AccountMeta, Instruction};
 use solana_sdk::message::v0;
